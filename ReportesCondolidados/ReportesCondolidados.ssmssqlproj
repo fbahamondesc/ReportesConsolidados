@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ReportesCondolidados">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="clsticas029:sa">
+          <Created>2020-03-04T09:31:22.729559-03:00</Created>
+          <Type>SQL</Type>
+          <Server>clsticas029</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="EERR_Sp_ERF_Extrae_Movimientos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:clsticas029:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>clsticas029</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>EERR_Sp_ERF_Extrae_Movimientos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EERR_Sp_ERF_ExtraeSaldos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:clsticas029:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>clsticas029</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>EERR_Sp_ERF_ExtraeSaldos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EERR_Sp_ERF_Recursivo_ExtraeSaldosyAjustes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:clsticas029:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>clsticas029</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>EERR_Sp_ERF_Recursivo_ExtraeSaldosyAjustes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EERR_Sp_Reporte_RFXA_Genera.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:clsticas029:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>clsticas029</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>EERR_Sp_Reporte_RFXA_Genera.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ejecuta_sp_reportes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:clsticas029:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>clsticas029</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>ejecuta_sp_reportes.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
