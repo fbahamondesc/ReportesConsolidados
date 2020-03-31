@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # SQL Server Management Studio Solution File, Format Version 18.00
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "ReportesCondolidados", "ReportesCondolidados\ReportesCondolidados.ssmssqlproj", "{020FD87E-AF4F-43CC-BD4F-CCBF9EA88AF2}"
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SP_ProyeccionesConsolidadosEERR", "SP_ProyeccionesConsolidadosEERR\SP_ProyeccionesConsolidadosEERR.ssmssqlproj", "{50AF2215-1E6B-4894-89A2-DEFA68CDB9FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2E775A5D-13CA-476B-A378-DB4D7673309A}.Default|Default.ActiveCfg = Default
-		{020FD87E-AF4F-43CC-BD4F-CCBF9EA88AF2}.Default|Default.ActiveCfg = Default
+		{3680F59D-1CA6-4952-95EE-029F11FD8974}.Default|Default.ActiveCfg = Default
+		{50AF2215-1E6B-4894-89A2-DEFA68CDB9FF}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
