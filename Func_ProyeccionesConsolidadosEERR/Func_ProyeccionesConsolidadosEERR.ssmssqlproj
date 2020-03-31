@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ReportesCondolidados">
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Func_ProyeccionesConsolidadosEERR">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="clsticas029:sa">
-          <Created>2020-03-04T09:31:22.729559-03:00</Created>
+          <Created>2020-03-31T16:07:18.4540399-03:00</Created>
           <Type>SQL</Type>
           <Server>clsticas029</Server>
           <UserName>sa</UserName>
           <Authentication>SQL</Authentication>
-          <InitialDB />
+          <InitialDB>CONSOLIDADO_EERR_DESARROLLO</InitialDB>
           <LoginTimeout>30</LoginTimeout>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
@@ -18,7 +18,14 @@
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
-      <Items />
+      <Items>
+        <FileNode Name="fn_split_string_to_column.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:clsticas029:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>clsticas029</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>fn_split_string_to_column.sql</FullPath>
+        </FileNode>
+      </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
       <Items />

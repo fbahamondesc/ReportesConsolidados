@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SP_ProyeccionesConsolidadosEERR", "SP_ProyeccionesConsolidadosEERR\SP_ProyeccionesConsolidadosEERR.ssmssqlproj", "{50AF2215-1E6B-4894-89A2-DEFA68CDB9FF}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Tbl_ProyeccionesConsolidadosEERR", "Tbl_ProyeccionesConsolidadosEERR\Tbl_ProyeccionesConsolidadosEERR.ssmssqlproj", "{6AC667D9-904E-43D8-B8B6-DEE91FF06F85}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "ProyeccionesConsolidadosEERR", "ProyeccionesConsolidadosEERR\ProyeccionesConsolidadosEERR.ssmssqlproj", "{03B1D47D-4D28-45A3-87AA-9C360C7A3B7F}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Func_ProyeccionesConsolidadosEERR", "Func_ProyeccionesConsolidadosEERR\Func_ProyeccionesConsolidadosEERR.ssmssqlproj", "{E55FABAC-0124-47D0-8FCC-06A5EDFD729C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -12,6 +18,9 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3680F59D-1CA6-4952-95EE-029F11FD8974}.Default|Default.ActiveCfg = Default
 		{50AF2215-1E6B-4894-89A2-DEFA68CDB9FF}.Default|Default.ActiveCfg = Default
+		{6AC667D9-904E-43D8-B8B6-DEE91FF06F85}.Default|Default.ActiveCfg = Default
+		{03B1D47D-4D28-45A3-87AA-9C360C7A3B7F}.Default|Default.ActiveCfg = Default
+		{E55FABAC-0124-47D0-8FCC-06A5EDFD729C}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
